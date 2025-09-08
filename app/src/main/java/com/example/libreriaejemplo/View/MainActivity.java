@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         // Observa los resultados de la búsqueda
         vm.getmLibro().observe(this, libro -> {
             if (libro != null) {
-                Intent intent = new Intent(this, DetalleActivity.class);
+                Intent intent = new Intent(getApplicationContext(), DetalleActivity.class);
                 intent.putExtra("libro", libro);
                 startActivity(intent);
             } else {
