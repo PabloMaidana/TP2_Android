@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LibreriaEjemplo">
         <activity
             android:name=".View.MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".View.DetalleActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

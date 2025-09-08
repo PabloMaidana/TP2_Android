@@ -1,11 +1,11 @@
 package com.example.libreriaejemplo.Model;
 
-public class Libro {
+import java.io.Serializable;
 
-    private String editorial;
+public class Libro implements Serializable {
+
     private String titulo;
     private String autor;
-    private String genero;
     private String descripcion;
 
     public Libro(String titulo, String autor, String descripcion) {
