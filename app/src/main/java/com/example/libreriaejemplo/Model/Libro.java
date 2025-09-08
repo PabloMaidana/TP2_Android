@@ -7,11 +7,21 @@ public class Libro implements Serializable {
     private String titulo;
     private String autor;
     private String descripcion;
+    private int portada;
 
-    public Libro(String titulo, String autor, String descripcion) {
+    public Libro(String titulo, String autor, String descripcion, int portada) {
         this.titulo = titulo;
         this.autor = autor;
         this.descripcion = descripcion;
+        this.portada = portada;
+    }
+
+    public int getPortada() {
+        return portada;
+    }
+
+    public void setPortada(int portada) {
+        this.portada = portada;
     }
 
     public String getTitulo() {

@@ -7,6 +7,7 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 
 import com.example.libreriaejemplo.Model.Libro;
+import com.example.libreriaejemplo.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +29,8 @@ public class MainViewModel extends AndroidViewModel {
                         + "narra la historia de la familia Buendía a lo largo de siete generaciones en el mítico pueblo de Macondo. "
                         + "A través de realismo mágico, García Márquez mezcla lo cotidiano con lo fantástico para explorar la soledad, "
                         + "el poder, el amor y la decadencia. Es una metáfora de la historia de América Latina, sus ciclos de violencia, "
-                        + "esperanza y desengaños, todo envuelto en un lenguaje poético y cautivador."
+                        + "esperanza y desengaños, todo envuelto en un lenguaje poético y cautivador.",
+                R.drawable.cien_anos
         ));
 
         libros.add(new Libro(
@@ -38,7 +40,8 @@ public class MainViewModel extends AndroidViewModel {
                         + "Cortázar invita al lector a elegir distintos caminos de lectura: lineal o saltando capítulos según un tablero propuesto. "
                         + "La obra explora la vida bohemia en París y Buenos Aires, a través de Horacio Oliveira y la Maga, su enigmática amante. "
                         + "Rayuela reflexiona sobre el sentido de la existencia, el amor, el arte y la imposibilidad de alcanzar una verdad definitiva, "
-                        + "convirtiéndose en un hito de la literatura del siglo XX."
+                        + "convirtiéndose en un hito de la literatura del siglo XX.",
+                R.drawable.rayuela
         ));
 
         libros.add(new Libro(
@@ -46,7 +49,8 @@ public class MainViewModel extends AndroidViewModel {
                 "Carlos Ruiz Zafón",
                 "Ambientada en la Barcelona de la posguerra, un niño llamado Daniel descubre un misterioso libro en el Cementerio de los Libros Olvidados. "
                         + "Fascinado por su autor, Julián Carax, inicia una investigación que lo llevará a desentrañar secretos familiares, pasiones prohibidas y tragedias ocultas. "
-                        + "La novela combina misterio, romance y un homenaje al poder de la literatura, con un estilo envolvente que atrapa al lector desde la primera página."
+                        + "La novela combina misterio, romance y un homenaje al poder de la literatura, con un estilo envolvente que atrapa al lector desde la primera página.",
+                R.drawable.sombra_viento
         ));
 
         libros.add(new Libro(
@@ -55,7 +59,8 @@ public class MainViewModel extends AndroidViewModel {
                 "Relata las peripecias de dos jóvenes poetas, Arturo Belano y Ulises Lima, en busca de Cesárea Tinajero, una misteriosa escritora desaparecida. "
                         + "La historia se despliega a través de múltiples voces y testimonios de personajes que cruzan sus vidas con los protagonistas a lo largo de décadas y países. "
                         + "Bolaño construye una obra monumental que explora la juventud, la bohemia, la literatura, la violencia y la desilusión, "
-                        + "convirtiéndose en una radiografía generacional de finales del siglo XX."
+                        + "convirtiéndose en una radiografía generacional de finales del siglo XX.",
+                R.drawable.detectives
         ));
 
         libros.add(new Libro(
@@ -65,7 +70,8 @@ public class MainViewModel extends AndroidViewModel {
                         + "Cuenta la historia de Frodo Bolsón, un hobbit que recibe el Anillo Único, un objeto de poder absoluto creado por el Señor Oscuro Sauron. "
                         + "Frodo y la Comunidad del Anillo emprenden un viaje peligroso para destruirlo en el Monte del Destino, "
                         + "enfrentando batallas, traiciones y la tentación del poder. "
-                        + "Más allá de la aventura, la obra trata sobre la amistad, el sacrificio, la lucha contra el mal y la esperanza en los tiempos oscuros."
+                        + "Más allá de la aventura, la obra trata sobre la amistad, el sacrificio, la lucha contra el mal y la esperanza en los tiempos oscuros.",
+                R.drawable.lotr
         ));
     }
 

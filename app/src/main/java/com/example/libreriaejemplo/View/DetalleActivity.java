@@ -24,6 +24,7 @@ public class DetalleActivity extends AppCompatActivity {
             binding.tvTitulo.setText(libro.getTitulo());
             binding.tvAutor.setText(libro.getAutor());
             binding.tvDescripcion.setText(libro.getDescripcion());
+            binding.imgPortada.setImageResource(libro.getPortada());
         }
     }
 }
